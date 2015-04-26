@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MK22FN512xxx12</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M4</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>128k</SRAMsize>
+    <FLASHsize>512k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>/home/rrau/workspace.kds/SuperSled/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/</Path>
+      <Path>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/</Path>
+      <Path>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/</Path>
+      <Path>/home/rrau/workspace.kds/SuperSled/Sources/</Path>
+      <Path>/home/rrau/workspace.kds/SuperSled/Generated_Code/</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>/home/rrau/workspace.kds/SuperSled/Generated_Code/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/src/</Path>
+      <Path>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/src/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/</Path>
+      <Path>/home/rrau/workspace.kds/SuperSled/Sources/</Path>
+      <Path>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/</Path>
+      <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/gpio1.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/hardware_init.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/i2cCom1.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/pin_init.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/uartCom1.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/fsl_gpio_common.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/fsl_gpio_irq.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/src/fsl_gpio_driver.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_common.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_shared_function.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/src/fsl_i2c_master_driver.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/src/fsl_i2c_slave_driver.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common/fsl_uart_common.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/fsl_uart_irq.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/src/fsl_uart_driver.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal_modes.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/src/fsl_os_abstraction_bm.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/system_MK22F51212.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/fsl_clock_manager.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/src/fsl_interrupt_manager.c</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/fsl_misc_utilities.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Events.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Interrupts.c</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/main.c</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/PE_low_level_init.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/board.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/gpio1.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/i2cCom1.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/layer1.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/pin_init.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/uartCom1.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_common_tables.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_const_structs.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_math.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cm4.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cm4_simd.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cmFunc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cmInstr.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_cmp.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dmamux.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_llwu.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pit.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rcm.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rtc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_vref.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/fsl_device_registers.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/fsl_gpio_common.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/fsl_gpio_driver.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_common.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_shared_function.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/fsl_i2c_master_driver.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/fsl_i2c_slave_driver.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common/fsl_uart_common.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/fsl_uart_driver.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal_modes.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/fsl_os_abstraction.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/fsl_os_abstraction_bm.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/system_MK22F51212.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/fsl_clock_manager.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_features.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_manager.h</PathName>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/fsl_misc_utilities.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Application.h</PathName>
+      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Events.h</PathName>
+    </GeneratedHs>
+    <GeneratedASMs>
+      <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/startup_MK22F51212.S</PathName>
+    </GeneratedASMs>
+  </FILES>
+  <OPTIONS>
+    <BuildOptions>
+      <CCoptList>
+        <Option>-D CPU_MK22FN512VLH12</Option>  
+      </CCoptList>
+    </BuildOptions>
+  </OPTIONS>
+</export>
