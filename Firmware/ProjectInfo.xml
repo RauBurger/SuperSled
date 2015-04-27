@@ -238,7 +238,10 @@
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_manager.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/fsl_misc_utilities.h</PathName>
       <PathName>/home/rrau/SuperSled/Firmware/Sources/Application.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/Debug.h</PathName>
       <PathName>/home/rrau/SuperSled/Firmware/Sources/Events.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/I2CMaster.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/InterruptManager.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/startup_MK22F51212.S</PathName>

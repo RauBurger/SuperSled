@@ -26,10 +26,10 @@
         <Line>SDK\platform\startup\MK22F51212\system_MK22F51212.h</Line>
       </GenExtraFiles>
       <GenExtraFileSrcDir8>lib\doxygen\</GenExtraFileSrcDir8>
-      <XtraAge0>1184525816</XtraAge0>
-      <XtraAge1>1184525816</XtraAge1>
-      <XtraAge2>1184525816</XtraAge2>
-      <XtraAge9>1184525816</XtraAge9>
+      <XtraAge0>1184582844</XtraAge0>
+      <XtraAge1>1184582844</XtraAge1>
+      <XtraAge2>1184582844</XtraAge2>
+      <XtraAge9>1184582844</XtraAge9>
       <GenExtraFileType9>4</GenExtraFileType9>
       <GenExtraFileType8>5</GenExtraFileType8>
       <GenExtraFileType7>4</GenExtraFileType7>
@@ -44,122 +44,122 @@
         <Line>/SDK/platform/CMSIS/Include/core_cm4_simd.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cm4_simd.h</Line>
         <Line>/SDK/platform/CMSIS/Include/core_cmFunc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cmFunc.h</Line>
         <Line>/SDK/platform/CMSIS/Include/core_cmInstr.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cmInstr.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/arm_const_structs.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_const_structs.h</Line>
         <Line>/SDK/platform/CMSIS/Include/arm_common_tables.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_common_tables.h</Line>
         <Line>/SDK/platform/CMSIS/Include/arm_math.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_math.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/arm_const_structs.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_const_structs.h</Line>
         <Line>/SDK/platform/CMSIS/Include/device/fsl_device_registers.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/fsl_device_registers.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rcm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rcm.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h</Line>
         <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_cmp.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_cmp.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h</Line>
         <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_vref.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_vref.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h</Line>
         <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dmamux.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dmamux.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rcm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rcm.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h</Line>
         <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_llwu.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_llwu.h</Line>
-        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pit.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pit.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h</Line>
         <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rtc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rtc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pit.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pit.h</Line>
+        <Line>/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h</Line>
         <Line>/SDK/platform/utilities/fsl_misc_utilities.h=/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/fsl_misc_utilities.h</Line>
         <Line>/SDK/platform/utilities/src/fsl_misc_utilities.c=/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/fsl_misc_utilities.c</Line>
+        <Line>/SDK/platform/startup/startup.c=/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.c</Line>
         <Line>/SDK/platform/startup/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/startup/subdir.mk</Line>
         <Line>/SDK/platform/startup/startup.h=/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.h</Line>
-        <Line>/SDK/platform/startup/startup.c=/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.c</Line>
         <Line>/SDK/platform/startup/MK22F51212/gcc/startup_MK22F51212.S=/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/startup_MK22F51212.S</Line>
         <Line>Static_Code/System/PE_low_level_init.c=/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/PE_low_level_init.c</Line>
         <Line>/SDK/platform/drivers/uart/common/fsl_uart_common.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common/fsl_uart_common.c</Line>
         <Line>/SDK/platform/drivers/uart/common/fsl_uart_common.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common/fsl_uart_common.h</Line>
-        <Line>/SDK/platform/drivers/uart/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/subdir.mk</Line>
         <Line>/SDK/platform/drivers/uart/fsl_uart_irq.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/fsl_uart_irq.c</Line>
+        <Line>/SDK/platform/drivers/uart/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/subdir.mk</Line>
         <Line>/SDK/platform/drivers/uart/fsl_uart_driver.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/fsl_uart_driver.h</Line>
         <Line>/SDK/platform/drivers/uart/src/fsl_uart_driver.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/src/fsl_uart_driver.c</Line>
-        <Line>/SDK/platform/hal/uart/fsl_uart_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.c</Line>
-        <Line>/SDK/platform/hal/uart/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/subdir.mk</Line>
-        <Line>/SDK/platform/hal/uart/fsl_uart_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.h</Line>
         <Line>/SDK/platform/hal/uart/fsl_uart_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_features.h</Line>
+        <Line>/SDK/platform/hal/uart/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/subdir.mk</Line>
+        <Line>/SDK/platform/hal/uart/fsl_uart_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.c</Line>
+        <Line>/SDK/platform/hal/uart/fsl_uart_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.h</Line>
         <Line>/SDK/platform/drivers/i2c/common/fsl_i2c_shared_function.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_shared_function.c</Line>
-        <Line>/SDK/platform/drivers/i2c/common/fsl_i2c_shared_function.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_shared_function.h</Line>
-        <Line>/SDK/platform/drivers/i2c/common/fsl_i2c_common.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_common.c</Line>
         <Line>/SDK/platform/drivers/i2c/common/fsl_i2c_common.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_common.h</Line>
+        <Line>/SDK/platform/drivers/i2c/common/fsl_i2c_common.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_common.c</Line>
+        <Line>/SDK/platform/drivers/i2c/common/fsl_i2c_shared_function.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/common/fsl_i2c_shared_function.h</Line>
         <Line>/SDK/platform/drivers/i2c/i2c_master/fsl_i2c_master_driver.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/fsl_i2c_master_driver.h</Line>
         <Line>/SDK/platform/drivers/i2c/i2c_master/src/fsl_i2c_master_driver.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_master/src/fsl_i2c_master_driver.c</Line>
         <Line>/SDK/platform/drivers/i2c/i2c_slave/fsl_i2c_slave_driver.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/fsl_i2c_slave_driver.h</Line>
         <Line>/SDK/platform/drivers/i2c/i2c_slave/src/fsl_i2c_slave_driver.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/i2c/i2c_slave/src/fsl_i2c_slave_driver.c</Line>
-        <Line>/SDK/platform/hal/i2c/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/subdir.mk</Line>
         <Line>/SDK/platform/hal/i2c/fsl_i2c_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_features.h</Line>
-        <Line>/SDK/platform/hal/i2c/fsl_i2c_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_hal.c</Line>
+        <Line>/SDK/platform/hal/i2c/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/subdir.mk</Line>
         <Line>/SDK/platform/hal/i2c/fsl_i2c_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_hal.h</Line>
-        <Line>/SDK/platform/hal/lptmr/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/subdir.mk</Line>
-        <Line>/SDK/platform/hal/lptmr/fsl_lptmr_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_hal.c</Line>
+        <Line>/SDK/platform/hal/i2c/fsl_i2c_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/i2c/fsl_i2c_hal.c</Line>
         <Line>/SDK/platform/hal/lptmr/fsl_lptmr_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_features.h</Line>
+        <Line>/SDK/platform/hal/lptmr/fsl_lptmr_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_hal.c</Line>
+        <Line>/SDK/platform/hal/lptmr/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/subdir.mk</Line>
         <Line>/SDK/platform/hal/lptmr/fsl_lptmr_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/lptmr/fsl_lptmr_hal.h</Line>
         <Line>/SDK/platform/osa/fsl_os_abstraction.h=/home/rrau/Freescale/KSDK_1.0.0/platform/osa/fsl_os_abstraction.h</Line>
         <Line>/SDK/platform/osa/fsl_os_abstraction_bm.h=/home/rrau/Freescale/KSDK_1.0.0/platform/osa/fsl_os_abstraction_bm.h</Line>
         <Line>/SDK/platform/osa/src/fsl_os_abstraction_bm.c=/home/rrau/Freescale/KSDK_1.0.0/platform/osa/src/fsl_os_abstraction_bm.c</Line>
-        <Line>/SDK/platform/drivers/gpio/fsl_gpio_driver.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/fsl_gpio_driver.h</Line>
         <Line>/SDK/platform/drivers/gpio/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/subdir.mk</Line>
         <Line>/SDK/platform/drivers/gpio/fsl_gpio_irq.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/fsl_gpio_irq.c</Line>
+        <Line>/SDK/platform/drivers/gpio/fsl_gpio_driver.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/fsl_gpio_driver.h</Line>
         <Line>/SDK/platform/drivers/gpio/src/fsl_gpio_driver.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/src/fsl_gpio_driver.c</Line>
-        <Line>/SDK/platform/drivers/gpio/common/fsl_gpio_common.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/fsl_gpio_common.c</Line>
         <Line>/SDK/platform/drivers/gpio/common/fsl_gpio_common.h=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/fsl_gpio_common.h</Line>
-        <Line>/SDK/platform/hal/gpio/fsl_gpio_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_hal.c</Line>
+        <Line>/SDK/platform/drivers/gpio/common/fsl_gpio_common.c=/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/fsl_gpio_common.c</Line>
         <Line>/SDK/platform/hal/gpio/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/subdir.mk</Line>
         <Line>/SDK/platform/hal/gpio/fsl_gpio_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_features.h</Line>
+        <Line>/SDK/platform/hal/gpio/fsl_gpio_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_hal.c</Line>
         <Line>/SDK/platform/hal/gpio/fsl_gpio_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/gpio/fsl_gpio_hal.h</Line>
-        <Line>/SDK/platform/system/interrupt/fsl_interrupt_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_features.h</Line>
         <Line>/SDK/platform/system/interrupt/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/subdir.mk</Line>
         <Line>/SDK/platform/system/interrupt/fsl_interrupt_manager.h=/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_manager.h</Line>
+        <Line>/SDK/platform/system/interrupt/fsl_interrupt_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_features.h</Line>
         <Line>/SDK/platform/system/interrupt/src/fsl_interrupt_manager.c=/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/src/fsl_interrupt_manager.c</Line>
+        <Line>/SDK/platform/hal/port/fsl_port_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_hal.c</Line>
         <Line>/SDK/platform/hal/port/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/subdir.mk</Line>
         <Line>/SDK/platform/hal/port/fsl_port_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_features.h</Line>
         <Line>/SDK/platform/hal/port/fsl_port_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_hal.h</Line>
-        <Line>/SDK/platform/hal/port/fsl_port_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/port/fsl_port_hal.c</Line>
-        <Line>/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h=/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h</Line>
         <Line>/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.c=/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.c</Line>
+        <Line>/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h=/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h</Line>
         <Line>/SDK/platform/system/clock/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/subdir.mk</Line>
         <Line>/SDK/platform/system/clock/fsl_clock_manager.c=/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/fsl_clock_manager.c</Line>
         <Line>/SDK/platform/system/clock/fsl_clock_manager.h=/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/fsl_clock_manager.h</Line>
         <Line>/SDK/platform/hal/osc/fsl_osc_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_hal.h</Line>
-        <Line>/SDK/platform/hal/osc/fsl_osc_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_hal.c</Line>
         <Line>/SDK/platform/hal/osc/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/subdir.mk</Line>
+        <Line>/SDK/platform/hal/osc/fsl_osc_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_hal.c</Line>
         <Line>/SDK/platform/hal/osc/fsl_osc_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/osc/fsl_osc_features.h</Line>
-        <Line>/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</Line>
         <Line>/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c</Line>
-        <Line>/SDK/platform/hal/sim/fsl_sim_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_hal.c</Line>
+        <Line>/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</Line>
         <Line>/SDK/platform/hal/sim/fsl_sim_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_hal.h</Line>
+        <Line>/SDK/platform/hal/sim/fsl_sim_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_hal.c</Line>
         <Line>/SDK/platform/hal/sim/fsl_sim_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_features.h</Line>
-        <Line>/SDK/platform/hal/mcg/fsl_mcg_hal_modes.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal_modes.c</Line>
         <Line>/SDK/platform/hal/mcg/subdir.mk=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/subdir.mk</Line>
-        <Line>/SDK/platform/hal/mcg/fsl_mcg_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_features.h</Line>
         <Line>/SDK/platform/hal/mcg/fsl_mcg_hal_modes.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal_modes.h</Line>
+        <Line>/SDK/platform/hal/mcg/fsl_mcg_features.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_features.h</Line>
+        <Line>/SDK/platform/hal/mcg/fsl_mcg_hal_modes.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal_modes.c</Line>
         <Line>/SDK/platform/hal/mcg/fsl_mcg_hal.c=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal.c</Line>
         <Line>/SDK/platform/hal/mcg/fsl_mcg_hal.h=/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/fsl_mcg_hal.h</Line>
       </GenLinkedFiles>
@@ -202,8 +202,8 @@
     <GenComponentVersion>01.065</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1184525816</HeaderAge>
-    <CodeAge>1184525816</CodeAge>
+    <HeaderAge>1184582844</HeaderAge>
+    <CodeAge>1184582844</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -226,55 +226,55 @@
     <ExtraFile7>SDK\platform\startup\MK22F51212\system_MK22F51212.h</ExtraFile7>
     <ExtraFile8>\SDK\platform\startup\MK22F51212\system_MK22F51212.c</ExtraFile8>
     <ExtraFile9>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/MK22F51212/gcc/startup_MK22F51212.S</ExtraFile9>
-    <ExtraFile10>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/startup.c</ExtraFile10>
-    <ExtraFile11>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/startup.h</ExtraFile11>
-    <ExtraFile12>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/subdir.mk</ExtraFile12>
+    <ExtraFile10>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/startup.h</ExtraFile10>
+    <ExtraFile11>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/subdir.mk</ExtraFile11>
+    <ExtraFile12>\home\rrau\SuperSled\Firmware\/SDK/platform/startup/startup.c</ExtraFile12>
     <ExtraFile13>\home\rrau\SuperSled\Firmware\/SDK/platform/utilities/src/fsl_misc_utilities.c</ExtraFile13>
     <ExtraFile14>\home\rrau\SuperSled\Firmware\/SDK/platform/utilities/fsl_misc_utilities.h</ExtraFile14>
-    <ExtraFile15>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rtc.h</ExtraFile15>
+    <ExtraFile15>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h</ExtraFile15>
     <ExtraFile16>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pit.h</ExtraFile16>
-    <ExtraFile17>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_llwu.h</ExtraFile17>
-    <ExtraFile18>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dmamux.h</ExtraFile18>
-    <ExtraFile19>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h</ExtraFile19>
-    <ExtraFile20>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_vref.h</ExtraFile20>
-    <ExtraFile21>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h</ExtraFile21>
-    <ExtraFile22>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_cmp.h</ExtraFile22>
-    <ExtraFile23>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h</ExtraFile23>
-    <ExtraFile24>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h</ExtraFile24>
-    <ExtraFile25>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h</ExtraFile25>
-    <ExtraFile26>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h</ExtraFile26>
-    <ExtraFile27>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h</ExtraFile27>
-    <ExtraFile28>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h</ExtraFile28>
-    <ExtraFile29>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h</ExtraFile29>
-    <ExtraFile30>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h</ExtraFile30>
-    <ExtraFile31>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h</ExtraFile31>
-    <ExtraFile32>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h</ExtraFile32>
-    <ExtraFile33>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h</ExtraFile33>
-    <ExtraFile34>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h</ExtraFile34>
-    <ExtraFile35>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h</ExtraFile35>
-    <ExtraFile36>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h</ExtraFile36>
-    <ExtraFile37>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h</ExtraFile37>
-    <ExtraFile38>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h</ExtraFile38>
-    <ExtraFile39>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h</ExtraFile39>
-    <ExtraFile40>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h</ExtraFile40>
-    <ExtraFile41>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h</ExtraFile41>
-    <ExtraFile42>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h</ExtraFile42>
-    <ExtraFile43>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h</ExtraFile43>
+    <ExtraFile17>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lptmr.h</ExtraFile17>
+    <ExtraFile18>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_crc.h</ExtraFile18>
+    <ExtraFile19>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h</ExtraFile19>
+    <ExtraFile20>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dma.h</ExtraFile20>
+    <ExtraFile21>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h</ExtraFile21>
+    <ExtraFile22>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftm.h</ExtraFile22>
+    <ExtraFile23>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212.h</ExtraFile23>
+    <ExtraFile24>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pmc.h</ExtraFile24>
+    <ExtraFile25>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_aips.h</ExtraFile25>
+    <ExtraFile26>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h</ExtraFile26>
+    <ExtraFile27>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfvbat.h</ExtraFile27>
+    <ExtraFile28>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fb.h</ExtraFile28>
+    <ExtraFile29>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_usb.h</ExtraFile29>
+    <ExtraFile30>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rtc.h</ExtraFile30>
+    <ExtraFile31>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h</ExtraFile31>
+    <ExtraFile32>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_llwu.h</ExtraFile32>
+    <ExtraFile33>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h</ExtraFile33>
+    <ExtraFile34>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h</ExtraFile34>
+    <ExtraFile35>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcm.h</ExtraFile35>
+    <ExtraFile36>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_nv.h</ExtraFile36>
+    <ExtraFile37>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_osc.h</ExtraFile37>
+    <ExtraFile38>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_gpio.h</ExtraFile38>
+    <ExtraFile39>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h</ExtraFile39>
+    <ExtraFile40>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_smc.h</ExtraFile40>
+    <ExtraFile41>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_mcg.h</ExtraFile41>
+    <ExtraFile42>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h</ExtraFile42>
+    <ExtraFile43>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rng.h</ExtraFile43>
     <ExtraFile44>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rcm.h</ExtraFile44>
-    <ExtraFile45>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_port.h</ExtraFile45>
-    <ExtraFile46>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_adc.h</ExtraFile46>
-    <ExtraFile47>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_sim.h</ExtraFile47>
-    <ExtraFile48>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ewm.h</ExtraFile48>
-    <ExtraFile49>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_wdog.h</ExtraFile49>
-    <ExtraFile50>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_fmc.h</ExtraFile50>
-    <ExtraFile51>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2s.h</ExtraFile51>
-    <ExtraFile52>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/fsl_bitaccess.h</ExtraFile52>
-    <ExtraFile53>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_i2c.h</ExtraFile53>
-    <ExtraFile54>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h</ExtraFile54>
+    <ExtraFile45>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_rfsys.h</ExtraFile45>
+    <ExtraFile46>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_ftfa.h</ExtraFile46>
+    <ExtraFile47>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_uart.h</ExtraFile47>
+    <ExtraFile48>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dmamux.h</ExtraFile48>
+    <ExtraFile49>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_dac.h</ExtraFile49>
+    <ExtraFile50>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_lpuart.h</ExtraFile50>
+    <ExtraFile51>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_pdb.h</ExtraFile51>
+    <ExtraFile52>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_vref.h</ExtraFile52>
+    <ExtraFile53>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_spi.h</ExtraFile53>
+    <ExtraFile54>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/MK22F51212/MK22F51212_cmp.h</ExtraFile54>
     <ExtraFile55>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/device/fsl_device_registers.h</ExtraFile55>
-    <ExtraFile56>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/arm_const_structs.h</ExtraFile56>
-    <ExtraFile57>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/arm_math.h</ExtraFile57>
-    <ExtraFile58>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/arm_common_tables.h</ExtraFile58>
+    <ExtraFile56>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/arm_math.h</ExtraFile56>
+    <ExtraFile57>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/arm_common_tables.h</ExtraFile57>
+    <ExtraFile58>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/arm_const_structs.h</ExtraFile58>
     <ExtraFile59>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/core_cmInstr.h</ExtraFile59>
     <ExtraFile60>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/core_cmFunc.h</ExtraFile60>
     <ExtraFile61>\home\rrau\SuperSled\Firmware\/SDK/platform/CMSIS/Include/core_cm4_simd.h</ExtraFile61>
@@ -406,8 +406,8 @@
     <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/fsl_clock_manager.h</ExtraFile0>
     <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/fsl_clock_manager.c</ExtraFile1>
     <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/subdir.mk</ExtraFile2>
-    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.c</ExtraFile3>
-    <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h</ExtraFile4>
+    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h</ExtraFile3>
+    <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/system/clock/MK22F51212/fsl_clock_K22F51212.c</ExtraFile4>
     <InhrCompID_6>
       <Generated>true</Generated>
       <GenCompName>fsl_mcg_hal1</GenCompName>
@@ -535,10 +535,10 @@
       <GenExtraFilesCount>6</GenExtraFilesCount>
       <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_hal.h</ExtraFile0>
       <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_hal.c</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_hal_modes.h</ExtraFile2>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
       <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_features.h</ExtraFile3>
-      <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/subdir.mk</ExtraFile4>
-      <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_hal_modes.c</ExtraFile5>
+      <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/fsl_mcg_hal_modes.h</ExtraFile4>
+      <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/mcg/subdir.mk</ExtraFile5>
     </InhrCompID_6>
     <InhrCompID_7>
       <Generated>true</Generated>
@@ -609,10 +609,10 @@
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>5</GenExtraFilesCount>
       <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_features.h</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.h</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.c</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c</ExtraFile3>
-      <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</ExtraFile4>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.c</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.h</ExtraFile2>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</ExtraFile3>
+      <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c</ExtraFile4>
     </InhrCompID_7>
     <InhrCompID_8>
       <Generated>true</Generated>
@@ -639,8 +639,8 @@
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
       <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/osc/fsl_osc_features.h</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/osc/subdir.mk</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/osc/fsl_osc_hal.c</ExtraFile2>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/osc/fsl_osc_hal.c</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/osc/subdir.mk</ExtraFile2>
       <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/osc/fsl_osc_hal.h</ExtraFile3>
     </InhrCompID_8>
   </ComponentID_5>
@@ -650,8 +650,8 @@
     <GenComponentVersion>01.007</GenComponentVersion>
     <GenDriverVersion>1.2</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1184525816</HeaderAge>
-    <CodeAge>1184525816</CodeAge>
+    <HeaderAge>1184582844</HeaderAge>
+    <CodeAge>1184582844</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>26</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -737,10 +737,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.c</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.h</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_features.h</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/subdir.mk</ExtraFile3>
+      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.h</ExtraFile0>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_features.h</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/subdir.mk</ExtraFile2>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.c</ExtraFile3>
     </InhrCompID_10>
     <InhrCompID_11>
       <Generated>true</Generated>
@@ -811,10 +811,10 @@
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>5</GenExtraFilesCount>
       <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_features.h</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.h</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.c</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c</ExtraFile3>
-      <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</ExtraFile4>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.c</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/fsl_sim_hal.h</ExtraFile2>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.h</ExtraFile3>
+      <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/sim/MK22F51212/fsl_sim_hal_K22F51212.c</ExtraFile4>
     </InhrCompID_11>
   </ComponentID_9>
   <ComponentID_14>
@@ -823,8 +823,8 @@
     <GenComponentVersion>01.106</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1184525816</HeaderAge>
-    <CodeAge>1184525816</CodeAge>
+    <HeaderAge>1184582844</HeaderAge>
+    <CodeAge>1184582844</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>12</GenNumMethods>
     <GPIO_DRV_Init>true</GPIO_DRV_Init>
@@ -845,12 +845,12 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
-    <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/common/fsl_gpio_common.h</ExtraFile0>
-    <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/common/fsl_gpio_common.c</ExtraFile1>
+    <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/common/fsl_gpio_common.c</ExtraFile0>
+    <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/common/fsl_gpio_common.h</ExtraFile1>
     <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/src/fsl_gpio_driver.c</ExtraFile2>
-    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/fsl_gpio_irq.c</ExtraFile3>
-    <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/subdir.mk</ExtraFile4>
-    <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/fsl_gpio_driver.h</ExtraFile5>
+    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/fsl_gpio_driver.h</ExtraFile3>
+    <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/fsl_gpio_irq.c</ExtraFile4>
+    <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/gpio/subdir.mk</ExtraFile5>
     <InhrCompID_15>
       <Generated>true</Generated>
       <GenCompName>fsl_port_hal2</GenCompName>
@@ -886,10 +886,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.c</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.h</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_features.h</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/subdir.mk</ExtraFile3>
+      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.h</ExtraFile0>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_features.h</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/subdir.mk</ExtraFile2>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/port/fsl_port_hal.c</ExtraFile3>
     </InhrCompID_15>
     <InhrCompID_16>
       <Generated>true</Generated>
@@ -921,9 +921,9 @@
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
       <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/fsl_gpio_hal.h</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/fsl_gpio_features.h</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/subdir.mk</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/fsl_gpio_hal.c</ExtraFile3>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/fsl_gpio_hal.c</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/fsl_gpio_features.h</ExtraFile2>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/gpio/subdir.mk</ExtraFile3>
     </InhrCompID_16>
   </ComponentID_14>
   <ComponentID_17>
@@ -948,9 +948,9 @@
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>4</GenExtraFilesCount>
     <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/src/fsl_interrupt_manager.c</ExtraFile0>
-    <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/fsl_interrupt_manager.h</ExtraFile1>
-    <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/subdir.mk</ExtraFile2>
-    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/fsl_interrupt_features.h</ExtraFile3>
+    <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/fsl_interrupt_features.h</ExtraFile1>
+    <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/fsl_interrupt_manager.h</ExtraFile2>
+    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/system/interrupt/subdir.mk</ExtraFile3>
   </ComponentID_17>
   <ComponentID_24>
     <Generated>true</Generated>
@@ -958,8 +958,8 @@
     <GenComponentVersion>01.027</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1184525816</HeaderAge>
-    <CodeAge>1184525816</CodeAge>
+    <HeaderAge>1184582844</HeaderAge>
+    <CodeAge>1184582844</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>9</GenNumMethods>
     <I2C_DRV_MasterInit>true</I2C_DRV_MasterInit>
@@ -987,9 +987,9 @@
     <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/i2c_slave/fsl_i2c_slave_driver.h</ExtraFile1>
     <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/i2c_master/src/fsl_i2c_master_driver.c</ExtraFile2>
     <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/i2c_master/fsl_i2c_master_driver.h</ExtraFile3>
-    <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/common/fsl_i2c_common.h</ExtraFile4>
+    <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/common/fsl_i2c_shared_function.h</ExtraFile4>
     <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/common/fsl_i2c_common.c</ExtraFile5>
-    <ExtraFile6>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/common/fsl_i2c_shared_function.h</ExtraFile6>
+    <ExtraFile6>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/common/fsl_i2c_common.h</ExtraFile6>
     <ExtraFile7>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/i2c/common/fsl_i2c_shared_function.c</ExtraFile7>
     <InhrCompID_25>
       <Generated>true</Generated>
@@ -1045,10 +1045,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/fsl_i2c_hal.h</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/fsl_i2c_hal.c</ExtraFile1>
-      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/fsl_i2c_features.h</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/subdir.mk</ExtraFile3>
+      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/fsl_i2c_hal.c</ExtraFile0>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/fsl_i2c_hal.h</ExtraFile1>
+      <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/subdir.mk</ExtraFile2>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/i2c/fsl_i2c_features.h</ExtraFile3>
     </InhrCompID_25>
   </ComponentID_24>
   <ComponentID_26>
@@ -1057,7 +1057,7 @@
     <GenComponentVersion>01.000</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1184525816</HeaderAge>
+    <HeaderAge>1184582844</HeaderAge>
     <CodeAge>-1</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>34</GenNumMethods>
@@ -1106,9 +1106,9 @@
     <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/osa/fsl_os_abstraction_bm.h</ExtraFile2>
     <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/osa/fsl_os_abstraction.h</ExtraFile3>
     <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/lptmr/fsl_lptmr_hal.h</ExtraFile4>
-    <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/lptmr/fsl_lptmr_features.h</ExtraFile5>
+    <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/lptmr/subdir.mk</ExtraFile5>
     <ExtraFile6>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/lptmr/fsl_lptmr_hal.c</ExtraFile6>
-    <ExtraFile7>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/lptmr/subdir.mk</ExtraFile7>
+    <ExtraFile7>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/lptmr/fsl_lptmr_features.h</ExtraFile7>
   </ComponentID_26>
   <ComponentID_27>
     <Generated>true</Generated>
@@ -1116,8 +1116,8 @@
     <GenComponentVersion>01.052</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1184525816</HeaderAge>
-    <CodeAge>1184525816</CodeAge>
+    <HeaderAge>1184582844</HeaderAge>
+    <CodeAge>1184582844</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>10</GenNumMethods>
     <UART_DRV_Init>true</UART_DRV_Init>
@@ -1138,8 +1138,8 @@
     <GenExtraFilesCount>6</GenExtraFilesCount>
     <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/src/fsl_uart_driver.c</ExtraFile0>
     <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/fsl_uart_driver.h</ExtraFile1>
-    <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/fsl_uart_irq.c</ExtraFile2>
-    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/subdir.mk</ExtraFile3>
+    <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/subdir.mk</ExtraFile2>
+    <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/fsl_uart_irq.c</ExtraFile3>
     <ExtraFile4>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/common/fsl_uart_common.h</ExtraFile4>
     <ExtraFile5>\home\rrau\SuperSled\Firmware\/SDK/platform/drivers/uart/common/fsl_uart_common.c</ExtraFile5>
     <InhrCompID_28>
@@ -1230,10 +1230,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/fsl_uart_features.h</ExtraFile0>
-      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/fsl_uart_hal.h</ExtraFile1>
+      <ExtraFile0>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/fsl_uart_hal.h</ExtraFile0>
+      <ExtraFile1>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/fsl_uart_hal.c</ExtraFile1>
       <ExtraFile2>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/subdir.mk</ExtraFile2>
-      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/fsl_uart_hal.c</ExtraFile3>
+      <ExtraFile3>\home\rrau\SuperSled\Firmware\/SDK/platform/hal/uart/fsl_uart_features.h</ExtraFile3>
     </InhrCompID_28>
   </ComponentID_27>
   <UsedSrcFiles>
@@ -1305,7 +1305,7 @@
     <SrcFile65>Drivers\Common\KinetisComponents_Init.inc=-1</SrcFile65>
     <SrcFile66>Drivers\fsl_sim_hal.src=-1</SrcFile66>
     <SrcFile67>Drivers\Common\GeneralMethod.inc=-1</SrcFile67>
-    <SrcFile68>lib\doxygen\pex.doxyfile=1179689647</SrcFile68>
+    <SrcFile68>lib\doxygen\pex.doxyfile=1179734168</SrcFile68>
     <SrcFile69>Drivers\Common\GeneralReturnNothing.inc=-1</SrcFile69>
     <SrcFile70>Drivers\Kinetis\StaticSdk_Kinetis.drv=-1</SrcFile70>
     <SrcFile71>Drivers\Common\RTOSAdaptor.prg=-1</SrcFile71>
