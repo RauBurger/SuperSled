@@ -9,6 +9,7 @@
 #define APPLICATION_H_
 
 #ifdef __cplusplus
+#include "I2CMaster.h"
 
 class Application
 {
@@ -19,7 +20,7 @@ public:
 	void Run();
 private:
 
-
+	I2CMaster* mI2CMaster;
 };
 
 #endif

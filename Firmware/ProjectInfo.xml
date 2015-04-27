@@ -35,7 +35,7 @@
     <FLASHsize>512k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>/home/rrau/workspace.kds/SuperSled/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>/home/rrau/SuperSled/Firmware/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/mcg/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/MK22F51212/</Path>
@@ -69,13 +69,13 @@
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/</Path>
-      <Path>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/</Path>
+      <Path>/home/rrau/SuperSled/Firmware/SDK/platform/startup/MK22F51212/</Path>
       <Path>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/</Path>
-      <Path>/home/rrau/workspace.kds/SuperSled/Sources/</Path>
-      <Path>/home/rrau/workspace.kds/SuperSled/Generated_Code/</Path>
+      <Path>/home/rrau/SuperSled/Firmware/Sources/</Path>
+      <Path>/home/rrau/SuperSled/Firmware/Generated_Code/</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>/home/rrau/workspace.kds/SuperSled/Generated_Code/</Path>
+      <Path>/home/rrau/SuperSled/Firmware/Generated_Code/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/src/</Path>
@@ -95,25 +95,25 @@
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/src/</Path>
-      <Path>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/</Path>
+      <Path>/home/rrau/SuperSled/Firmware/SDK/platform/startup/MK22F51212/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/src/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/</Path>
-      <Path>/home/rrau/workspace.kds/SuperSled/Sources/</Path>
+      <Path>/home/rrau/SuperSled/Firmware/Sources/</Path>
       <Path>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/</Path>
       <Path>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/Cpu.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/gpio1.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/hardware_init.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/i2cCom1.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/pin_init.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/uartCom1.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/gpio1.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/hardware_init.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/i2cCom1.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/pin_init.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/uartCom1.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/common/fsl_gpio_common.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/fsl_gpio_irq.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/gpio/src/fsl_gpio_driver.c</PathName>
@@ -135,25 +135,25 @@
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/sim/fsl_sim_hal.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/src/fsl_os_abstraction_bm.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/system_MK22F51212.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/SDK/platform/startup/MK22F51212/system_MK22F51212.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/fsl_clock_manager.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/src/fsl_interrupt_manager.c</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/src/fsl_misc_utilities.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Events.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Interrupts.c</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/main.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/Events.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/Interrupts.c</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/main.c</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd2/MK22FN512LH12_4SDK/system/sdk/PE_low_level_init.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/Cpu.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/board.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/gpio1.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/i2cCom1.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/layer1.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/pin_init.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Generated_Code/uartCom1.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/board.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/gpio1.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/i2cCom1.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/layer1.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/pin_init.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Generated_Code/uartCom1.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_common_tables.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_const_structs.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/arm_math.h</PathName>
@@ -230,15 +230,15 @@
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/uart/fsl_uart_hal.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/fsl_os_abstraction.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/osa/fsl_os_abstraction_bm.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/SDK/platform/startup/MK22F51212/system_MK22F51212.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/SDK/platform/startup/MK22F51212/system_MK22F51212.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/startup.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/MK22F51212/fsl_clock_K22F51212.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/clock/fsl_clock_manager.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_features.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/system/interrupt/fsl_interrupt_manager.h</PathName>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/utilities/fsl_misc_utilities.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Application.h</PathName>
-      <PathName>/home/rrau/workspace.kds/SuperSled/Sources/Events.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/Application.h</PathName>
+      <PathName>/home/rrau/SuperSled/Firmware/Sources/Events.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
       <PathName>/home/rrau/Freescale/KSDK_1.0.0/platform/startup/MK22F51212/gcc/startup_MK22F51212.S</PathName>

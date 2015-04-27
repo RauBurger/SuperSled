@@ -3,8 +3,8 @@
   <Header>
     <Name>SuperSled</Name>
     <SavedBy>rrau</SavedBy>
-    <ModificationStamp>19</ModificationStamp>
-    <Date>2015-04-25</Date>
+    <ModificationStamp>21</ModificationStamp>
+    <Date>2015-04-26</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.10.1.RT6_b1444-1070</PEversion>
   </Header>
@@ -41,6 +41,7 @@
     <ProjectStaticFilesGenerationMode>LINKED</ProjectStaticFilesGenerationMode>
     <SdkSourceFilesDirectory>${KSDK_PATH}</SdkSourceFilesDirectory>
     <SdkVersionValue>1.0.0-GA</SdkVersionValue>
+    <SdkLibraryModes lines_count="0" />
   </Options>
   <UserFolder>
     <UserFolderName />
@@ -2118,7 +2119,7 @@
           <ItemSymbol>C_StackSize</ItemSymbol>
           <ReadOnly>false</ReadOnly>
           <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-          <Value>1024</Value>
+          <Value>2048</Value>
           <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
           <Base>HEX</Base>
         </ItemState>
@@ -2126,7 +2127,7 @@
           <ItemSymbol>C_HeapSize</ItemSymbol>
           <ReadOnly>false</ReadOnly>
           <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-          <Value>1024</Value>
+          <Value>4096</Value>
           <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
           <Base>HEX</Base>
         </ItemState>
@@ -3002,7 +3003,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPll1Clk</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3360,7 +3360,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPllRefSel0Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3375,7 +3374,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllRefSel0Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3925,7 +3923,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetLossClkReset2Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3940,7 +3937,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetLossClkReset2Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3955,7 +3951,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetRange1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3970,7 +3965,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetRange1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -3985,7 +3979,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetHighGainOsc1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4000,7 +3993,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetHighGainOsc1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4015,7 +4007,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetExternalRefSel1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4030,7 +4021,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetExternalRefSel1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4045,7 +4035,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPllRefSel1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4060,7 +4049,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllRefSel1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4075,7 +4063,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPllClk1Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4090,7 +4077,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllClk1Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4105,7 +4091,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPllStop1Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4120,7 +4105,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllStop1Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4135,7 +4119,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPllClkSelMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4150,7 +4133,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllClkSelMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4165,7 +4147,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPllExternalRefDivider1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4180,7 +4161,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllExternalRefDivider1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4195,7 +4175,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetLossOfLock1Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4210,7 +4189,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetLossOfLock1Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4225,7 +4203,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetClkMonitor2Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4240,7 +4217,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetClkMonitor2Cmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4255,7 +4231,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetVoltCtrlOscDivider1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4270,7 +4245,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetVoltCtrlOscDivider1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4285,7 +4259,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetLossOfLock1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4300,7 +4273,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetLock1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4315,7 +4287,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPllClkSelStatMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4330,7 +4301,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetOscInit1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4345,7 +4315,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetLocs2Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4853,7 +4822,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetCmtUartPadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4868,7 +4836,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetCmtUartPadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4883,7 +4850,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetPtd7PadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4898,7 +4864,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetPtd7PadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4941,7 +4906,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetFlexbusHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4956,7 +4920,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlexbusHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4971,7 +4934,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetNandFlashControllerHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -4986,7 +4948,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetNandFlashControllerHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5091,7 +5052,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetUartOpenDrainCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5106,7 +5066,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetUartOpenDrainCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5233,7 +5192,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetTpmExternalClkPinSelMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5248,7 +5206,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetTpmExternalClkPinSelMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5263,7 +5220,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetTpmChSrcMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5278,7 +5234,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetTpmChSrcMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5381,7 +5336,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetSramSize</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5396,7 +5350,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlexnvmSize</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5420,7 +5373,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetEepromSize</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5435,7 +5387,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlexnvmPartition</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5534,7 +5485,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlashMaxAddrBlock01</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5549,7 +5499,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlashMaxAddrBlock23</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -5564,7 +5513,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetProgramFlashCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19661,7 +19609,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetCmtUartPadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19676,7 +19623,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetCmtUartPadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19691,7 +19637,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetPtd7PadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19706,7 +19651,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetPtd7PadDriveStrengthMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19749,7 +19693,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetFlexbusHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19764,7 +19707,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlexbusHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19779,7 +19721,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetNandFlashControllerHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19794,7 +19735,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetNandFlashControllerHoldCycles</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19899,7 +19839,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetUartOpenDrainCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -19914,7 +19853,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetUartOpenDrainCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20041,7 +19979,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetTpmExternalClkPinSelMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20056,7 +19993,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetTpmExternalClkPinSelMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20071,7 +20007,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_SetTpmChSrcMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20086,7 +20021,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetTpmChSrcMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20189,7 +20123,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetSramSize</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20204,7 +20137,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlexnvmSize</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20228,7 +20160,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetEepromSize</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20243,7 +20174,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlexnvmPartition</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20342,7 +20272,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlashMaxAddrBlock01</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20357,7 +20286,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetFlashMaxAddrBlock23</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -20372,7 +20300,6 @@
             <ItemState>
               <ItemSymbol>SIM_HAL_GetProgramFlashCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -21007,15 +20934,17 @@
         <ItemSymbol>slewRateOut0_0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>true</PropertyModelIsAutomatic>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>0</Index>
+        <EnumSymbVal>fast</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>driveStrengthOut0_0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>true</PropertyModelIsAutomatic>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>0</Index>
+        <EnumSymbVal>low</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>FSL_HAS_OPEN_DRAINGrp0_0</ItemSymbol>
@@ -21026,8 +20955,9 @@
         <ItemSymbol>isOpenDrainEnabledOut0_0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>true</PropertyModelIsAutomatic>
-        <Index>0</Index>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <EnumSymbVal>enable</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>HiddenItem</ItemSymbol>
@@ -27929,7 +27859,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_SetPinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -27944,7 +27873,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ClearPinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -27959,7 +27887,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_TogglePinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -27974,7 +27901,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_WritePortOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -28007,7 +27933,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ReadPinInput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -28022,7 +27947,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ReadPortInput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -28090,15 +28014,17 @@
         <ItemSymbol>slewRateOut0_1</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>true</PropertyModelIsAutomatic>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>0</Index>
+        <EnumSymbVal>fast</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>driveStrengthOut0_1</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>true</PropertyModelIsAutomatic>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>0</Index>
+        <EnumSymbVal>low</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>FSL_HAS_OPEN_DRAINGrp0_1</ItemSymbol>
@@ -28109,8 +28035,9 @@
         <ItemSymbol>isOpenDrainEnabledOut0_1</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>true</PropertyModelIsAutomatic>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>0</Index>
+        <EnumSymbVal>disable</EnumSymbVal>
       </ItemState>
     </Properties>
     <Methods>

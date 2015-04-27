@@ -6,6 +6,7 @@
  */
 
 #include "Application.h"
+#include "InterruptManager.h"
 #include "gpio1.h"
 #include "i2cCom1.h"
 #include "uartCom1.h"
@@ -42,7 +43,9 @@ uint32_t itoa(uint32_t val, char buff[])
 
 Application::Application()
 {
+	InterruptManager::Init();
 
+	mI2CMaster = new I2CMaster(0, 100, 0x50);
 }
 
 Application::~Application()
@@ -58,8 +61,8 @@ void Application::Run()
 
 	UART_DRV_Init(FSL_UARTCOM1, &uartCom1_State, &uartCom1_InitConfig0);
 
-	I2C_DRV_MasterInit(FSL_I2CCOM1, &i2cCom1_MasterState);
-	I2C_DRV_MasterSetBaudRate(FSL_I2CCOM1, &i2cCom1_MasterConfig0);
+	//I2C_DRV_MasterInit(FSL_I2CCOM1, &i2cCom1_MasterState);
+	//I2C_DRV_MasterSetBaudRate(FSL_I2CCOM1, &i2cCom1_MasterConfig0);
 
 	char str[10];
 	uint32_t num = itoa(10, str);
@@ -70,21 +73,68 @@ void Application::Run()
 	uint8_t pressureBuff[2];
 	while(true)
 	{
-		// Tell sensor to start conversion
-		i2c_status_t err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, NULL, 0, 100);
+		uint8_t dummy[2];
+		// Tell sensor to start conversion. So even though we don't want to receive any data with this command,
+		// if we don't give the driver a valid receive buffer it will try to de-ref address 0x0 even though it's
+		// been provided with a size of 0. Further we need to tell it that we want to receive 1 byte of data so
+		// it properly stops the transmission after only sending the address. shit's broke yo.
+		//i2c_status_t err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, dummy, 1, 100);
+		I2CMaster::I2CStatus err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read, true);
 
-		if(err != kStatus_I2C_Success)
+		if(err != I2CMaster::I2CStatus_OK)
 		{
-			char errStr[100] = "MR failed\n\r";
-			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, 11, 100);
+			char errCode[3];
+			uint32_t errStrLen = 24;
+			char errStr[100] = "1: MR failed with error ";
+			uint32_t errNum = itoa(err, errCode);
+			for(uint32_t i = 0; i < errNum; i++)
+			{
+				errStr[errStrLen+i] = errCode[i];
+			}
+			errStr[errStrLen+errNum] = '\n';
+			errStr[errStrLen+errNum+1] = '\r';
+
+			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
 		}
 		memset(pressureBuff, 0, 2);
 		for(int i = 0; i < 100000; i++){};
 
 		// Read data from sensor
-		err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, pressureBuff, 2, 100);
+		err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read);
+		if(err != I2CMaster::I2CStatus_OK)
+		{
+			char errCode[3];
+			uint32_t errStrLen = 24;
+			char errStr[100] = "2: MR failed with error ";
+			uint32_t errNum = itoa(err, errCode);
+			for(uint32_t i = 0; i < errNum; i++)
+			{
+				errStr[errStrLen+i] = errCode[i];
+			}
+			errStr[errStrLen+errNum] = '\n';
+			errStr[errStrLen+errNum+1] = '\r';
 
-		uint16_t pressure = pressureBuff[0] << 8 | pressureBuff[1];
+			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
+		}
+		err = mI2CMaster->Read(pressureBuff, 2, 100);
+		if(err != I2CMaster::I2CStatus_OK)
+		{
+			char errCode[3];
+			uint32_t errStrLen = 24;
+			char errStr[100] = "3: MR failed with error ";
+			uint32_t errNum = itoa(err, errCode);
+			for(uint32_t i = 0; i < errNum; i++)
+			{
+				errStr[errStrLen+i] = errCode[i];
+			}
+			errStr[errStrLen+errNum] = '\n';
+			errStr[errStrLen+errNum+1] = '\r';
+
+			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
+		}
+		//err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, pressureBuff, 2, 100);
+		uint8_t status = (pressureBuff[0] & 0xC0) >> 6;
+		uint16_t pressure = (pressureBuff[0] & 0x3F) << 8 | pressureBuff[1];
 
 		num = itoa(pressure, str);
 
