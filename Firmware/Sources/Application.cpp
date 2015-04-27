@@ -79,7 +79,7 @@ void Application::Run()
 		// been provided with a size of 0. Further we need to tell it that we want to receive 1 byte of data so
 		// it properly stops the transmission after only sending the address. shit's broke yo.
 		//i2c_status_t err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, dummy, 1, 100);
-		I2CMaster::I2CStatus err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read, true);
+		I2CMaster::I2CStatus err;// = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read, true);
 
 		if(err != I2CMaster::I2CStatus_OK)
 		{
@@ -100,7 +100,7 @@ void Application::Run()
 		for(int i = 0; i < 100000; i++){};
 
 		// Read data from sensor
-		err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read);
+		//err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read);
 		if(err != I2CMaster::I2CStatus_OK)
 		{
 			char errCode[3];
@@ -116,7 +116,7 @@ void Application::Run()
 
 			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
 		}
-		err = mI2CMaster->Read(pressureBuff, 2, 100);
+		//err = mI2CMaster->Read(pressureBuff, 2, 100);
 		if(err != I2CMaster::I2CStatus_OK)
 		{
 			char errCode[3];

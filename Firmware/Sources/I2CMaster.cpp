@@ -12,7 +12,7 @@
 #include <fsl_i2c_common.h>
 #include <fsl_clock_manager.h>
 
-#include <assert.h>
+#include "Debug.h"
 
 I2CMaster::I2CMaster(uint32_t instance, uint32_t baudRate, uint8_t address) :
 	mInstance(instance),

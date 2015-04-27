@@ -9,7 +9,8 @@
 #define INTERRUPTMANAGER_H_
 
 #include <stdint.h>
-#include <assert.h>
+
+#include "Debug.h"
 
 class IInterruptDelegate
 {
