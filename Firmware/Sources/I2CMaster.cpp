@@ -81,7 +81,7 @@ I2CMaster::I2CStatus I2CMaster::WriteAddress(uint32_t timeoutMs, I2CMaster::Dire
     {
         return I2CStatus_Timeout;
     }
-
+    mStatus = I2CStatus_OK;
     mDir = Direction_Write;
     // Set direction to send for sending of address.
     I2C_HAL_SetDirMode(mBaseAddress, kI2CSend);
@@ -107,11 +107,31 @@ I2CMaster::I2CStatus I2CMaster::WriteAddress(uint32_t timeoutMs, I2CMaster::Dire
     }
 
     if(lone)
-    	I2C_HAL_SendStop(mBaseAddress);
+    {
+    	I2C_HAL_SetIntCmd(mBaseAddress, false);
+    	while(I2C_HAL_GetStatusFlag(mBaseAddress, kI2CReceivedNak)) {}
+    	//I2C_HAL_SendNak(mBaseAddress);
+    	//OSA_TimeDelay(3U);
+    	//I2C_HAL_SendStop(mBaseAddress);
+        uint32_t i = 0;
+        while(I2C_HAL_GetStatusFlag(mBaseAddress, kI2CBusBusy))
+        {
+            if(++i == 6)
+            {
+                // Something is wrong because the bus is still busy.
+                mStatus = I2CStatus_Busy;
+                break;
+            }
+            else
+            {
+                OSA_TimeDelay(1U);
+            }
+        }
+    }
 
     OSA_SemaPost(&mTransactionSem);
 
-	return I2CStatus_OK;
+	return mStatus;
 }
 
 I2CMaster::I2CStatus I2CMaster::Read(uint8_t rxBuffer[], uint32_t rxBufferSize, uint32_t timeoutMs)
@@ -138,7 +158,7 @@ I2CMaster::I2CStatus I2CMaster::Read(uint8_t rxBuffer[], uint32_t rxBufferSize, 
     	mSize = rxBufferSize;
     	mBuffer = rxBuffer;
 
-        /* Send NAK if only one byte to read. */
+        // Send NAK if only one byte to read.
     	if (mSize == 0x1U)
         {
             I2C_HAL_SendNak(mBaseAddress);
@@ -148,13 +168,14 @@ I2CMaster::I2CStatus I2CMaster::Read(uint8_t rxBuffer[], uint32_t rxBufferSize, 
             I2C_HAL_SendAck(mBaseAddress);
         }
 
-        /* Dummy read to trigger receive of next byte in interrupt. */
+        // Dummy read to trigger receive of next byte in interrupt.
         I2C_HAL_ReadByte(mBaseAddress);
 
-        /* Wait for the transfer to finish.*/
+        // Wait for the transfer to finish.
         status = Wait(timeoutMs);
         if(status != I2CStatus_OK)
         {
+        	I2C_HAL_SendStop(mBaseAddress);
         	OSA_SemaPost(&mTransactionSem);
         	return status;
         }
@@ -175,6 +196,10 @@ I2CMaster::I2CStatus I2CMaster::Read(uint8_t rxBuffer[], uint32_t rxBufferSize, 
         */
     	//I2C_HAL_SendStop(mBaseAddress);
     }
+
+    // The stop signal is send inside irq before reading the last byte.
+    // Disable interrupt.
+    I2C_HAL_SetIntCmd(mBaseAddress, false);
 
     // Wait for the STOP signal finish.
     uint32_t i = 0;
@@ -231,6 +256,7 @@ void I2CMaster::InterruptHandler()
 
 	if(((mSize-1) == 0) && (mDir == Direction_Write))
 	{
+		I2C_HAL_SendStop(mBaseAddress);
 		OSA_SemaPost(&mSyncSem);
 		return;
 	}

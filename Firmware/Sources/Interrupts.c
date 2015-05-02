@@ -6,6 +6,11 @@
  */
 #include "i2cCom1.h"
 
+void I2C0_IRQHandler(void)
+{
+    I2C_DRV_MasterIRQHandler(FSL_I2CCOM1);
+}
+
 void GenericFaultHandler(unsigned long *fault_args)
 {
 	volatile unsigned long stacked_r0 ;

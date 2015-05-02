@@ -43,9 +43,9 @@ uint32_t itoa(uint32_t val, char buff[])
 
 Application::Application()
 {
-	InterruptManager::Init();
+	//InterruptManager::Init();
 
-	mI2CMaster = new I2CMaster(0, 100, 0x50);
+	//mI2CMaster = new I2CMaster(0, 100, 0x50);
 }
 
 Application::~Application()
@@ -61,7 +61,7 @@ void Application::Run()
 
 	UART_DRV_Init(FSL_UARTCOM1, &uartCom1_State, &uartCom1_InitConfig0);
 
-	//I2C_DRV_MasterInit(FSL_I2CCOM1, &i2cCom1_MasterState);
+	I2C_DRV_MasterInit(FSL_I2CCOM1, &i2cCom1_MasterState);
 	//I2C_DRV_MasterSetBaudRate(FSL_I2CCOM1, &i2cCom1_MasterConfig0);
 
 	char str[10];
@@ -78,8 +78,10 @@ void Application::Run()
 		// if we don't give the driver a valid receive buffer it will try to de-ref address 0x0 even though it's
 		// been provided with a size of 0. Further we need to tell it that we want to receive 1 byte of data so
 		// it properly stops the transmission after only sending the address. shit's broke yo.
-		//i2c_status_t err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, dummy, 1, 100);
-		I2CMaster::I2CStatus err;// = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read, true);
+		i2c_status_t err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, dummy, 1, 100);
+		memset(pressureBuff, 0, 2);
+		/*
+		//I2CMaster::I2CStatus err;// = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read, true);
 
 		if(err != I2CMaster::I2CStatus_OK)
 		{
@@ -96,7 +98,6 @@ void Application::Run()
 
 			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
 		}
-		memset(pressureBuff, 0, 2);
 		for(int i = 0; i < 100000; i++){};
 
 		// Read data from sensor
@@ -132,7 +133,8 @@ void Application::Run()
 
 			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
 		}
-		//err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, pressureBuff, 2, 100);
+		*/
+		err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, pressureBuff, 2, 100);
 		uint8_t status = (pressureBuff[0] & 0xC0) >> 6;
 		uint16_t pressure = (pressureBuff[0] & 0x3F) << 8 | pressureBuff[1];
 

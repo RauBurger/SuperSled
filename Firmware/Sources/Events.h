@@ -35,6 +35,8 @@
 #include "gpio1.h"
 #include "i2cCom1.h"
 #include "uartCom1.h"
+#include "spiCom1.h"
+#include "dmaController1.h"
 
 #ifdef __cplusplus
 extern "C" {
