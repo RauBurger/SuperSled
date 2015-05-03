@@ -1,0 +1,86 @@
+Telemega Sled
+
+Programmers notes
+rev 0.01
+4/29/2015
+
+The K22 has several interfaces, they include:
+The SPI Bus:
+1) SPI FLASH size of 512Mb or 1Gb
+2) The ability to reset the Telemega and take over the SPI bus to the SPI FLASH
+3) The ability to be a SPI slave to the Telemega
+4) The ability to be a SPI master to the SPI FLASH without a Telemega.
+5) The ability to access a SD card (exclusive of FLASH/Telemega communications)
+
+The I2C buses:
+1) I2C0 is for the pressure/temperature sensor
+2) I2C2 is for the PMOD connector, J4
+
+Servo interfaces:
+1) There are four PWM (analog) servo outputs on FTM3, channels 4 to 7
+2) There is a separate power connector for the servo power.
+
+Push button inputs:
+1) Three inputs on PTB, bits 3 (SW1), 17 (SW2), and 18 (SW3).
+
+LED outputs:
+1) LED D2 by the SD card interface, PTA5
+2) LED D3 by the servo connectors, PTA19
+
+Telemega interface:
+1) The ability to reset the Telemega with protection from false Telemega resets by using 2 bits. PTD5 must be a one and PTD4 must be a zero to reset the Telemega.
+2) A asynchronous serial interface, also usable as a external serial interface using the same cable that connects to the Telemega.
+
+Analog interface
+1) Two analog inputs with 10.0½ 0.1% pull ups for thermistors.
+
+The K22 is reset with its own power-on-reset and the JTAG reset, it is not reset by the Telemega. It does however control the Telemega reset. The K22 is powered from 3.3 volts with two options. The K22 3.3V can be regulated from the LiPo with U9 installed, or it can be powered from the Telemega 3.3 volt using R2. Our build uses U9.
+
+The K22 can run from its internal oscillator or from an external 8.0000MHz oscillator.
+
+
+
+The SPI Bus
+-----------
+SPI pins while inputs:
+PTCn initialization: PS=1, PE=1, PFE=0
+
+SPI pins while outputs:
+PTCn initialization: SRE=0, ODE=0, DSE=1
+
+To set the SPI bus to be a Telemega slave:
+PTC2=0 and PTC1=1
+In this mode one of the Telemega chip selects goes to the SPI FLASH CS1 pin and the other Telemega chip select goes to the K22 SPI0_PCS0 pin acting like a slave select.
+
+The I2C buses
+-------------
+
+
+Servo interfaces
+----------------
+PTC8 initialization: SRE=1, ODE=0, DSE=1, DSE=0
+PTC9 initialization: SRE=1, ODE=0, DSE=1, DSE=0
+PTC10 initialization: SRE=1, ODE=0, DSE=1, DSE=0
+PTC11 initialization: SRE=1, ODE=0, DSE=1, DSE=0
+
+
+Push button inputs
+------------------
+Internal pull up resistors required.
+PTB3 initialization: PS=1, PE=1, PFE=1
+PTB17 initialization: PS=1, PE=1, PFE=1
+PTB18 initialization: PS=1, PE=1, PFE=1
+
+LED outputs
+-----------
+Open collector, high drive strength.
+PTA5 initialization: PE=0, SRE=1, ODE=1, DSE=1
+PTA19 initialization: PE=0, SRE=1, ODE=1, DSE=1
+
+Telemega Interface
+------------------
+Telemega reset
+PTD4 initialization: PS=1, PE=1, SRE=1, DSE=1
+PTD5 initialization: PS=0, PE=1, SRE=1, DSE=1
+Additional protection from accidental Telemega reset can be achieved by making these pins inputs until you are ready to reset the Telemega.
+

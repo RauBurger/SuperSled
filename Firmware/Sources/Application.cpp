@@ -10,6 +10,10 @@
 #include "gpio1.h"
 #include "i2cCom1.h"
 #include "uartCom1.h"
+extern "C" {
+#include "adConv1.h"
+}
+
 #include "string.h"
 
 uint32_t itoa(uint32_t val, char buff[])
@@ -55,14 +59,8 @@ Application::~Application()
 
 void Application::Run()
 {
-	GPIO_DRV_Init(NULL, gpio1_OutConfig0);
 	GPIO_DRV_SetPinOutput(PTA1);
 	GPIO_DRV_SetPinOutput(PTA2);
-
-	UART_DRV_Init(FSL_UARTCOM1, &uartCom1_State, &uartCom1_InitConfig0);
-
-	I2C_DRV_MasterInit(FSL_I2CCOM1, &i2cCom1_MasterState);
-	//I2C_DRV_MasterSetBaudRate(FSL_I2CCOM1, &i2cCom1_MasterConfig0);
 
 	char str[10];
 	uint32_t num = itoa(10, str);
@@ -137,8 +135,8 @@ void Application::Run()
 		err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, pressureBuff, 2, 100);
 		uint8_t status = (pressureBuff[0] & 0xC0) >> 6;
 		uint16_t pressure = (pressureBuff[0] & 0x3F) << 8 | pressureBuff[1];
-
-		num = itoa(pressure, str);
+		uint16_t adcVal = ADC_DRV_GetConvValueRAW(FSL_ADCONV1, 0);
+		num = itoa(adcVal, str);
 
 		str[num] = '\n';
 		str[num+1] = '\r';

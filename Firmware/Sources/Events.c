@@ -37,6 +37,11 @@ extern "C" {
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
+void adConv1_OnAdcDone0(void)
+{
+  /* Write your code here ... */
+}
+
 /* END Events */
 
 #ifdef __cplusplus

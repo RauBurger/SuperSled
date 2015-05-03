@@ -37,11 +37,14 @@
 #include "uartCom1.h"
 #include "spiCom1.h"
 #include "dmaController1.h"
+#include "adConv1.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif 
 
+
+void adConv1_OnAdcDone0(void);
 
 /* END Events */
 

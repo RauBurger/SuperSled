@@ -100,6 +100,10 @@
 									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_master/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_slave&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_slave/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/hal/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/common&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1490257716" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
 							</tool>
@@ -142,6 +146,21 @@
 									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/hal/dmamux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/hal/edma&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/edma&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/edma/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/edma/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/hal/dspi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_master&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_master/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_slave&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/dspi/dspi_slave/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/hal/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/common&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.883462306" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="&quot;CPU_MK22FN512VDC12&quot;"/>

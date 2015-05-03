@@ -102,6 +102,21 @@
 			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/core_cmInstr.h</location>
 		</link>
 		<link>
+			<name>SDK/platform/drivers/adc/fsl_adc_driver.h</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/fsl_adc_driver.h</location>
+		</link>
+		<link>
+			<name>SDK/platform/drivers/adc/fsl_adc_irq.c</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/fsl_adc_irq.c</location>
+		</link>
+		<link>
+			<name>SDK/platform/drivers/adc/subdir.mk</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/subdir.mk</location>
+		</link>
+		<link>
 			<name>SDK/platform/drivers/edma/fsl_edma_driver.h</name>
 			<type>1</type>
 			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/edma/fsl_edma_driver.h</location>
@@ -150,6 +165,26 @@
 			<name>SDK/platform/drivers/uart/subdir.mk</name>
 			<type>1</type>
 			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/uart/subdir.mk</location>
+		</link>
+		<link>
+			<name>SDK/platform/hal/adc/fsl_adc_features.h</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/adc/fsl_adc_features.h</location>
+		</link>
+		<link>
+			<name>SDK/platform/hal/adc/fsl_adc_hal.c</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/adc/fsl_adc_hal.c</location>
+		</link>
+		<link>
+			<name>SDK/platform/hal/adc/fsl_adc_hal.h</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/adc/fsl_adc_hal.h</location>
+		</link>
+		<link>
+			<name>SDK/platform/hal/adc/subdir.mk</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/hal/adc/subdir.mk</location>
 		</link>
 		<link>
 			<name>SDK/platform/hal/dmamux/fsl_dmamux_features.h</name>
@@ -420,6 +455,21 @@
 			<name>SDK/platform/CMSIS/Include/device/fsl_device_registers.h</name>
 			<type>1</type>
 			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/CMSIS/Include/device/fsl_device_registers.h</location>
+		</link>
+		<link>
+			<name>SDK/platform/drivers/adc/common/fsl_adc_common.c</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/common/fsl_adc_common.c</location>
+		</link>
+		<link>
+			<name>SDK/platform/drivers/adc/common/fsl_adc_common.h</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/common/fsl_adc_common.h</location>
+		</link>
+		<link>
+			<name>SDK/platform/drivers/adc/src/fsl_adc_driver.c</name>
+			<type>1</type>
+			<location>/home/rrau/Freescale/KSDK_1.0.0/platform/drivers/adc/src/fsl_adc_driver.c</location>
 		</link>
 		<link>
 			<name>SDK/platform/drivers/dspi/common/fsl_dspi_common.c</name>
