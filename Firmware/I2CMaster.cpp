@@ -9,11 +9,11 @@
 #include "InterruptManager.h"
 
 #include <fsl_i2c_hal.h>
-#include <fsl_i2c_common.h>
+//#include <fsl_i2c_common.h>
 #include <fsl_clock_manager.h>
 
 #include "Debug.h"
-
+/*
 I2CMaster::I2CMaster(uint32_t instance, uint32_t baudRate, uint8_t address) :
 	mInstance(instance),
 	mBaseAddress(g_i2cBaseAddr[instance]),
@@ -186,14 +186,14 @@ I2CMaster::I2CStatus I2CMaster::Read(uint8_t rxBuffer[], uint32_t rxBufferSize, 
     	I2C_HAL_SendNak(mBaseAddress);
     	I2C_HAL_ReadByte(mBaseAddress);
     	status = Wait(timeoutMs);
-    	/*
-    	status = Wait(timeoutMs);
-        if(status != I2CStatus_OK)
-        {
-        	OSA_SemaPost(&mTransactionSem);
-        	return status;
-        }
-        */
+    	
+    	//status = Wait(timeoutMs);
+        //if(status != I2CStatus_OK)
+        //{
+        //	OSA_SemaPost(&mTransactionSem);
+        //	return status;
+        //}
+        
     	//I2C_HAL_SendStop(mBaseAddress);
     }
 
@@ -294,3 +294,5 @@ void I2CMaster::InterruptHandler()
 	}
 	mSize--;
 }
+
+*/

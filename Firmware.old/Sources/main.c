@@ -30,13 +30,16 @@
 /* Including needed modules to compile this module/procedure */
 #include "Cpu.h"
 #include "Events.h"
+#include "clockMan1.h"
 #include "pin_init.h"
 #include "gpio1.h"
 #include "i2cCom1.h"
+#include "layer1.h"
 #include "uartCom1.h"
 #include "spiCom1.h"
 #include "dmaController1.h"
 #include "adConv1.h"
+#include "voltageRef1.h"
 #if CPU_INIT_CONFIG
   #include "Init_Config.h"
 #endif

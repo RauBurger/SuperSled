@@ -59,8 +59,8 @@ Application::~Application()
 
 void Application::Run()
 {
-	GPIO_DRV_SetPinOutput(PTA1);
-	GPIO_DRV_SetPinOutput(PTA2);
+	GPIO_DRV_SetPinOutput(PTA19);
+	GPIO_DRV_SetPinOutput(PTA5);
 
 	char str[10];
 	uint32_t num = itoa(10, str);
@@ -135,14 +135,14 @@ void Application::Run()
 		err = I2C_DRV_MasterReceiveDataBlocking(FSL_I2CCOM1, &i2cCom1_MasterConfig0, NULL, 0, pressureBuff, 2, 100);
 		uint8_t status = (pressureBuff[0] & 0xC0) >> 6;
 		uint16_t pressure = (pressureBuff[0] & 0x3F) << 8 | pressureBuff[1];
-		uint16_t adcVal = ADC_DRV_GetConvValueRAW(FSL_ADCONV1, 0);
+		uint16_t adcVal = ADC16_DRV_GetConvValueRAW(FSL_ADCONV1, 0);
 		num = itoa(adcVal, str);
 
 		str[num] = '\n';
 		str[num+1] = '\r';
 		UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)str, num+2, 100);
 
-		GPIO_DRV_TogglePinOutput(PTA1);
+		GPIO_DRV_TogglePinOutput(PTA19);
 
 		for(int i = 0; i < 100000; i++){};
 	}

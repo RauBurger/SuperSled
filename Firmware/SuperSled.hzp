@@ -1,0 +1,123 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="SuperSled" target="8" version="2">
+  <project Name="SuperSled">
+    <configuration
+      Name="Common"
+      Placement="Flash Vectors In RAM"
+      Target="MK22FN512xxx12"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_gcc_target="arm-unknown-eabi"
+      arm_linker_heap_size="2048"
+      arm_linker_stack_size="2048"
+      arm_simulator_memory_simulation_filename="$(TargetsDir)/Kinetis/KinetisSimulatorMemory.dll"
+      arm_simulator_memory_simulation_parameter="MK22FN512xxx12;0x80000;0x0;0x0;0x20000"
+      arm_target_debug_interface_type="ADIv5"
+      arm_target_loader_applicable_loaders="Flash"
+      arm_target_loader_default_loader="Flash"
+      arm_target_restrict_memory_accesses="Yes"
+      c_additional_options="-fms-extensions"
+      c_preprocessor_definitions="CPU_MK22FN512VLH12;STARTUP_FROM_RESET"
+      c_user_include_directories="$(TargetsDir)/Kinetis;$(TargetsDir)/CMSIS_3/CMSIS/Include;$(KSDK_PATH)/platform/hal/inc/;$(KSDK_PATH)/platform/drivers/inc/;$(KSDK_PATH)/platform/system/inc/;$(KSDK_PATH)/platform/utilities/inc/;$(KSDK_PATH)/platform/osa/inc/;$(KSDK_PATH)/platform/devices/;$(KSDK_PATH)/platform/devices/MK22F51212/include/;$(KSDK_PATH)/platform/devices/MK22F51212/startup/;$(KSDK_PATH)/platform/system/src/clock/MK22F51212/"
+      debug_register_definition_file="$(TargetsDir)/Kinetis/MK22F51212_Peripherals.xml"
+      gcc_c_language_standard="c11"
+      gcc_cplusplus_language_standard="c++11"
+      linker_memory_map_file="$(TargetsDir)/Kinetis/MK22FN512xxx12_MemoryMap.xml"
+      linker_output_format="hex"
+      linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml" project_dependencies=""
+      project_dependencies_can_build_in_parallel="Yes"
+      project_directory=""
+      project_type="Executable"
+      property_groups_file_path="$(TargetsDir)/Kinetis/propertyGroups.xml"
+      target_connect_script="Connect()"
+      target_get_partname_script="GetPartName()"
+      target_match_partname_script="MatchPartName(&quot;$(Target)&quot;)"
+      target_reset_script="Reset()"
+      target_script_file="$(TargetsDir)/Kinetis/Kinetis_Target.js"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <configuration
+      Name="Flash"
+      arm_target_flash_loader_file_path="$(TargetsDir)/Kinetis/Release/Loader.elf"
+      arm_target_flash_loader_type="LIBMEM RPC Loader"
+      arm_target_loader_can_lock_all="No"
+      arm_target_loader_can_lock_range="No"
+      arm_target_loader_can_unlock_all="No"
+      arm_target_loader_can_unlock_range="No"
+      arm_target_loader_parameter="2" />
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <file file_name="main.c" />
+      <file file_name="I2CMaster.h" />
+      <file file_name="I2CMaster.cpp" />
+      <file file_name="InterruptManager.h" />
+      <file file_name="Debug.h" />
+      <file file_name="Interrupts.c" />
+      <file file_name="Application.cpp" />
+      <file file_name="InterruptManager.cpp" />
+      <file file_name="Application.h" />
+      <file file_name="pin_init.c" />
+      <file file_name="pin_init.h" />
+      <folder Name="KinetisSDK">
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/adc16/fsl_adc16_common.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/adc16/fsl_adc16_driver.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/adc16/fsl_adc16_irq.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/adc16/fsl_adc16_lpm_callback.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_common.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_irq.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_lpm_callback.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_master_driver.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_shared_function.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/gpio/fsl_gpio_common.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/gpio/fsl_gpio_driver.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/gpio/fsl_gpio_irq.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/gpio/fsl_gpio_lpm_callback.c" />
+        <file file_name="$(KSDK_PATH)/platform/hal/src/adc16/fsl_adc16_hal.c" />
+        <file file_name="$(KSDK_PATH)/platform/hal/src/i2c/fsl_i2c_hal.c" />
+        <file file_name="$(KSDK_PATH)/platform/hal/src/gpio/fsl_gpio_hal.c" />
+        <file file_name="$(KSDK_PATH)/platform/osa/src/fsl_os_abstraction_bm.c" />
+        <file file_name="$(KSDK_PATH)/platform/system/src/clock/fsl_clock_manager.c" />
+        <file file_name="$(KSDK_PATH)/platform/system/src/clock/fsl_clock_manager_common.c" />
+        <file file_name="$(KSDK_PATH)/platform/system/src/clock/MK22F51212/fsl_clock_MK22F51212.c" />
+        <file file_name="$(KSDK_PATH)/platform/system/src/interrupt/fsl_interrupt_manager.c" />
+        <file file_name="$(KSDK_PATH)/platform/hal/src/lptmr/fsl_lptmr_hal.c" />
+        <file file_name="$(KSDK_PATH)/platform/hal/src/mcg/fsl_mcg_hal.c" />
+        <file file_name="$(KSDK_PATH)/platform/hal/src/mcg/fsl_mcg_hal_modes.c" />
+        <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_slave_driver.c" />
+      </folder>
+      <file file_name="VoltageReference.h" />
+      <file file_name="VoltageReference.cpp" />
+      <file file_name="AnalogDigitalConverter.h" />
+      <file file_name="AnalogInput.h" />
+      <file file_name="AnalogDigitalConverter.cpp" />
+      <file file_name="AnalogInput.cpp" />
+    </folder>
+    <folder Name="System Files">
+      <file file_name="$(StudioDir)/source/thumb_crt0.s" />
+      <file file_name="$(TargetsDir)/Kinetis/Kinetis_Startup.s" />
+    </folder>
+  </project>
+  <configuration Name="THUMB Debug" inherited_configurations="THUMB;Debug" />
+  <configuration
+    Name="THUMB"
+    Platform="ARM"
+    arm_instruction_set="Thumb"
+    arm_library_instruction_set="Thumb"
+    c_preprocessor_definitions="__THUMB"
+    hidden="Yes" />
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None"
+    hidden="Yes" />
+  <configuration
+    Name="THUMB Release"
+    inherited_configurations="THUMB;Release" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 1"
+    gcc_optimization_level="Level 1"
+    hidden="Yes" />
+</solution>

@@ -1,5 +1,5 @@
 /* ###################################################################
-**     Filename    : Events.h
+**     Filename    : Events.c
 **     Project     : SuperSled
 **     Processor   : MK22FN512VLH12
 **     Component   : Events
@@ -15,7 +15,7 @@
 **
 ** ###################################################################*/
 /*!
-** @file Events.h
+** @file Events.c
 ** @version 01.00
 ** @brief
 **         This is user's event module.
@@ -25,26 +25,55 @@
 **  @addtogroup Events_module Events module documentation
 **  @{
 */         
-
-#ifndef __Events_H
-#define __Events_H
 /* MODULE Events */
 
-#include "fsl_device_registers.h"
-#include "pin_init.h"
-#include "gpio1.h"
-#include "i2cCom1.h"
-#include "uartCom1.h"
-#include "spiCom1.h"
-#include "dmaController1.h"
-#include "adConv1.h"
+#include "Cpu.h"
+#include "Events.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif 
 
 
-void adConv1_OnAdcDone0(void);
+/* User includes (#include below this line is not maintained by Processor Expert) */
+
+void adConv1_OnAdcDone0(void)
+{
+  /* Write your code here ... */
+}
+
+/*! adConv1 IRQ handler */
+void ADC1_IRQHandler(void)
+{
+  /* Write your code here ... */
+}
+
+/*! spiCom1 IRQ handler */
+void SPI0_IRQHandler(void)
+{
+#if SPICOM1_DMA_MODE
+  DSPI_DRV_EdmaIRQHandler(FSL_SPICOM1);
+#else
+  DSPI_DRV_IRQHandler(FSL_SPICOM1);
+#endif
+  /* Write your code here ... */
+}
+
+void uartCom1_RxCallback(uint32_t instance, void * uartState)
+{
+  /* Write your code here ... */
+}
+
+void uartCom1_TxCallback(uint32_t instance, void * uartState)
+{
+  /* Write your code here ... */
+}
+
+/*! i2cCom1 IRQ handler */
+void I2C0_IRQHandler(void)
+{
+  I2C_DRV_IRQHandler(FSL_I2CCOM1);
+}
 
 /* END Events */
 
@@ -52,8 +81,6 @@ void adConv1_OnAdcDone0(void);
 }  /* extern "C" */
 #endif 
 
-#endif 
-/* ifndef __Events_H*/
 /*!
 ** @}
 */

@@ -1,0 +1,75 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks>
+  <BookmarkItem column="-1" line="352" path="/home/rrau/Freescale/KSDK_1.1.0/platform/CMSIS/Include/device/fsl_device_registers.h" number="6" extra="defined(CPU_MK22FN512VLL12) || defined(CPU_MK22FN512VMP12))" name="unnamed" color="5" />
+  <BookmarkItem column="-1" line="333" path="/home/rrau/Freescale/KSDK_1.1.0/platform/CMSIS/Include/device/fsl_device_registers.h" number="1" extra="#elif (defined(CPU_MK22FN128VDC10) || defined(CPU_MK22FN128VLH10) || defined(CPU_MK22FN128VLL10) || \" name="unnamed" color="5" />
+  <BookmarkItem column="-1" line="334" path="/home/rrau/Freescale/KSDK_1.1.0/platform/CMSIS/Include/device/fsl_device_registers.h" number="2" extra="defined(CPU_MK22FN128VMP10))" name="unnamed" color="5" />
+  <BookmarkItem column="-1" line="351" path="/home/rrau/Freescale/KSDK_1.1.0/platform/CMSIS/Include/device/fsl_device_registers.h" number="5" extra="#elif (defined(CPU_MK22FN512CAP12) || defined(CPU_MK22FN512VDC12) || defined(CPU_MK22FN512VLH12) || \" name="unnamed" color="5" />
+ </Bookmarks>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow addressText="" bufferWidth="-1" bufferHeight="-1" addressSpace="" />
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="SuperSled" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="SuperSled" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="SuperSled" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="SuperSled" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="SuperSled" name="unnamed" />
+  <ProjectSessionItem path="SuperSled;SuperSled" name="unnamed" />
+  <ProjectSessionItem path="SuperSled;SuperSled;Source Files" name="unnamed" />
+  <ProjectSessionItem path="SuperSled;SuperSled;Source Files;KinetisSDK" name="unnamed" />
+  <ProjectSessionItem path="SuperSled;SuperSled;System Files" name="unnamed" />
+  <SourceCodeControlLogin password="F9BB6682F5D56822" user="Rob Rau &lt;rfr2@mac.com>" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="CPU - Current Context;CoreDebug;ADC1;ADC1/ADC1_SC1A;ADC1/ADC1_SC1B;ADC1/ADC1_SC2;ADC1/ADC1_SC3" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CoreDebug/DHCSR;CoreDebug/DCRSR;CoreDebug/DCRDR;CoreDebug/DEMCR;ADC1/ADC1_SC1A;ADC1/ADC1_SC1B;ADC1/ADC1_CFG1;ADC1/ADC1_CFG2;ADC1/ADC1_RA;ADC1/ADC1_RB;ADC1/ADC1_CV1;ADC1/ADC1_CV2;ADC1/ADC1_SC2;ADC1/ADC1_SC3;ADC1/ADC1_OFS;ADC1/ADC1_PG;ADC1/ADC1_MG;ADC1/ADC1_CLPD;ADC1/ADC1_CLPS;ADC1/ADC1_CLP4;ADC1/ADC1_CLP3;ADC1/ADC1_CLP2;ADC1/ADC1_CLP1;ADC1/ADC1_CLP0;ADC1/ADC1_CLMD;ADC1/ADC1_CLMS;ADC1/ADC1_CLM4;ADC1/ADC1_CLM3;ADC1/ADC1_CLM2;ADC1/ADC1_CLM1;ADC1/ADC1_CLM0" name="SuperSled" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="SuperSled" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="SuperSled" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="SuperSled" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never" />
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/main.c" y="8" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/main.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/InterruptManager.h" y="52" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/InterruptManager.h" left="0" selected="0" name="unnamed" top="27" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="3" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/Application.cpp" y="183" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/Application.cpp" left="0" selected="1" name="unnamed" top="168" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/Interrupts.c" y="5" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/Interrupts.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/Application.h" y="28" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/Application.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/InterruptManager.cpp" y="22" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/InterruptManager.cpp" left="0" selected="0" name="unnamed" top="6" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogDigitalConverter.h" y="5" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogDigitalConverter.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogInput.h" y="18" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogInput.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogDigitalConverter.cpp" y="7" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogDigitalConverter.cpp" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogInput.cpp" y="8" path="/home/rrau/Documents/CrossWorks Projects/SuperSled/AnalogInput.cpp" left="0" selected="0" name="unnamed" top="0" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="SuperSled" autoConnectTarget="CrossConnect for ARM" debugSearchFileMap="" fileDialogInitialDirectory="/home/rrau/Freescale/KSDK_1.2.0/platform/drivers/src/i2c" fileDialogDefaultFilter="*.c" autoConnectCapabilities="266111" debugSearchPath="" buildConfiguration="THUMB Debug" />
+</session>

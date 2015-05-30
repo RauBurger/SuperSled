@@ -1,5 +1,5 @@
 /* ###################################################################
-**     Filename    : Events.c
+**     Filename    : Events.h
 **     Project     : SuperSled
 **     Processor   : MK22FN512VLH12
 **     Component   : Events
@@ -15,7 +15,7 @@
 **
 ** ###################################################################*/
 /*!
-** @file Events.c
+** @file Events.h
 ** @version 01.00
 ** @brief
 **         This is user's event module.
@@ -25,22 +25,42 @@
 **  @addtogroup Events_module Events module documentation
 **  @{
 */         
+
+#ifndef __Events_H
+#define __Events_H
 /* MODULE Events */
 
-#include "Cpu.h"
-#include "Events.h"
+#include "fsl_device_registers.h"
+#include "clockMan1.h"
+#include "pin_init.h"
+#include "gpio1.h"
+#include "i2cCom1.h"
+#include "layer1.h"
+#include "uartCom1.h"
+#include "spiCom1.h"
+#include "dmaController1.h"
+#include "adConv1.h"
+#include "voltageRef1.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif 
 
 
-/* User includes (#include below this line is not maintained by Processor Expert) */
+void adConv1_OnAdcDone0(void);
 
-void adConv1_OnAdcDone0(void)
-{
-  /* Write your code here ... */
-}
+/*! adConv1 IRQ handler */
+void ADC1_IRQHandler(void);
+
+/*! spiCom1 IRQ handler */
+void SPI0_IRQHandler(void);
+
+void uartCom1_RxCallback(uint32_t instance, void * uartState);
+
+void uartCom1_TxCallback(uint32_t instance, void * uartState);
+
+/*! i2cCom1 IRQ handler */
+void I2C0_IRQHandler(void);
 
 /* END Events */
 
@@ -48,6 +68,8 @@ void adConv1_OnAdcDone0(void)
 }  /* extern "C" */
 #endif 
 
+#endif 
+/* ifndef __Events_H*/
 /*!
 ** @}
 */
