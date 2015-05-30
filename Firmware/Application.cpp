@@ -144,56 +144,22 @@ void Application::Run()
 		/*
 		if(err != I2CMaster::I2CStatus_OK)
 		{
-			char errCode[3];
-			uint32_t errStrLen = 24;
-			char errStr[100] = "1: MR failed with error ";
-			uint32_t errNum = itoa(err, errCode);
-			for(uint32_t i = 0; i < errNum; i++)
-			{
-				errStr[errStrLen+i] = errCode[i];
-			}
-			errStr[errStrLen+errNum] = '\n';
-			errStr[errStrLen+errNum+1] = '\r';
-
-			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
-			
+			printf("I2C write address error %d\n", err);
 		}
 		*/
 		/*
 		for(int i = 0; i < 100000; i++){};
 
 		// Read data from sensor
-		//err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read);
+		err = mI2CMaster->WriteAddress(100, I2CMaster::Direction_Read);
 		if(err != I2CMaster::I2CStatus_OK)
 		{
-			char errCode[3];
-			uint32_t errStrLen = 24;
-			char errStr[100] = "2: MR failed with error ";
-			uint32_t errNum = itoa(err, errCode);
-			for(uint32_t i = 0; i < errNum; i++)
-			{
-				errStr[errStrLen+i] = errCode[i];
-			}
-			errStr[errStrLen+errNum] = '\n';
-			errStr[errStrLen+errNum+1] = '\r';
-
-			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
+			printf("I2C write address error %d\n", err);
 		}
-		//err = mI2CMaster->Read(pressureBuff, 2, 100);
+		err = mI2CMaster->Read(pressureBuff, 2, 100);
 		if(err != I2CMaster::I2CStatus_OK)
 		{
-			char errCode[3];
-			uint32_t errStrLen = 24;
-			char errStr[100] = "3: MR failed with error ";
-			uint32_t errNum = itoa(err, errCode);
-			for(uint32_t i = 0; i < errNum; i++)
-			{
-				errStr[errStrLen+i] = errCode[i];
-			}
-			errStr[errStrLen+errNum] = '\n';
-			errStr[errStrLen+errNum+1] = '\r';
-
-			UART_DRV_SendDataBlocking(FSL_UARTCOM1, (const uint8_t*)errStr, errStrLen+errNum+2, 100);
+			printf("I2C read error %d\n", err);
 		}
 		*/
 		
@@ -207,7 +173,7 @@ void Application::Run()
 		uint16_t temp2Val = mTemp2->Read();
 		float temp2Voltage = (float)temp1Val/65536.0F * 3.3F;
 
-		debug_printf("pressure = %d\t\ttemp1Val = %d\ttemp1Voltage = %f\t\ttemp2Val = %d\ttemp2Voltage = %f\r", pressure, temp1Val, temp1Voltage, temp2Val, temp2Voltage);
+		printf("pressure = %d\t\ttemp1Val = %d\ttemp1Voltage = %f\t\ttemp2Val = %d\ttemp2Voltage = %f\r", pressure, temp1Val, temp1Voltage, temp2Val, temp2Voltage);
 
         GPIO_DRV_TogglePinOutput(PA19);
         GPIO_DRV_TogglePinOutput(PA5);

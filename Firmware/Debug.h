@@ -30,6 +30,12 @@ inline void __assert_func(const char *, int, const char *, const char *)
 	while(true){}
 }
 
+#ifdef DEBUG
+#define printf  debug_printf
+#else
+#define printf(...) {}
+#endif
+
 #ifdef __cplusplus
 }
 #endif
