@@ -18,14 +18,15 @@
       arm_target_loader_default_loader="Flash"
       arm_target_restrict_memory_accesses="Yes"
       c_additional_options="-fms-extensions"
-      c_preprocessor_definitions="CPU_MK22FN512VLH12;STARTUP_FROM_RESET"
-      c_user_include_directories="$(TargetsDir)/Kinetis;$(TargetsDir)/CMSIS_3/CMSIS/Include;$(KSDK_PATH)/platform/hal/inc/;$(KSDK_PATH)/platform/drivers/inc/;$(KSDK_PATH)/platform/system/inc/;$(KSDK_PATH)/platform/utilities/inc/;$(KSDK_PATH)/platform/osa/inc/;$(KSDK_PATH)/platform/devices/;$(KSDK_PATH)/platform/devices/MK22F51212/include/;$(KSDK_PATH)/platform/devices/MK22F51212/startup/;$(KSDK_PATH)/platform/system/src/clock/MK22F51212/"
+      c_preprocessor_definitions="CPU_MK22FN512VLH12;STARTUP_FROM_RESET;SD_DISK_ENABLE=1"
+      c_user_include_directories="$(TargetsDir)/Kinetis;$(TargetsDir)/CMSIS_3/CMSIS/Include;$(KSDK_PATH)/platform/hal/inc/;$(KSDK_PATH)/platform/drivers/inc/;$(KSDK_PATH)/platform/system/inc/;$(KSDK_PATH)/platform/utilities/inc/;$(KSDK_PATH)/platform/osa/inc/;$(KSDK_PATH)/platform/devices/;$(KSDK_PATH)/platform/devices/MK22F51212/include/;$(KSDK_PATH)/platform/devices/MK22F51212/startup/;$(KSDK_PATH)/platform/system/src/clock/MK22F51212/;$(KSDK_PATH)/middleware/filesystem/fatfs/;$(KSDK_PATH)/middleware/filesystem/fatfs/fsl_sd_disk/;$(KSDK_PATH)/platform/composite/inc/"
       debug_register_definition_file="$(TargetsDir)/Kinetis/MK22F51212_Peripherals.xml"
       gcc_c_language_standard="c11"
       gcc_cplusplus_language_standard="c++11"
       linker_memory_map_file="$(TargetsDir)/Kinetis/MK22FN512xxx12_MemoryMap.xml"
       linker_output_format="hex"
-      linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml" project_dependencies=""
+      linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml"
+      project_dependencies=""
       project_dependencies_can_build_in_parallel="Yes"
       project_directory=""
       project_type="Executable"
@@ -84,6 +85,10 @@
         <file file_name="$(KSDK_PATH)/platform/hal/src/mcg/fsl_mcg_hal.c" />
         <file file_name="$(KSDK_PATH)/platform/hal/src/mcg/fsl_mcg_hal_modes.c" />
         <file file_name="$(KSDK_PATH)/platform/drivers/src/i2c/fsl_i2c_slave_driver.c" />
+        <file file_name="$(KSDK_PATH)/middleware/filesystem/fatfs/fsl_sd_disk/src/fsl_sdspi_disk.c" />
+        <file file_name="$(KSDK_PATH)/platform/composite/src/sdcard/fsl_sdcard_spi.c" />
+        <file file_name="$(KSDK_PATH)/middleware/filesystem/fatfs/diskio.c" />
+        <file file_name="$(KSDK_PATH)/middleware/filesystem/fatfs/ff.c" />
       </folder>
       <file file_name="VoltageReference.h" />
       <file file_name="VoltageReference.cpp" />
